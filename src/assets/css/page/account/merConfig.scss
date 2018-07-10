@@ -1,0 +1,51 @@
+#MerConfig {
+  display: flex;
+  flex-direction: column;
+  .main-hd {
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    .hd-title {
+      height: 60px;
+      line-height: 60px;
+      color: #3399ff;
+      font-size: 22px;
+    }
+    .hd-btnGroup {
+      height: 32px;
+      width: 152px;
+      position: absolute;
+      top: 14px;
+      right: 20px;
+    }
+  }
+  .top-btnGroup {
+    padding: 20px 20px;
+    background-color: #fff;
+    margin: 14px 0;
+    .el-input__inner {
+      line-height: 32px;
+    }
+  }
+  .main-table {
+    flex: 1;
+    .cell {
+      text-align: center;
+    }
+  }
+  .pagination {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+  }
+  .bom-btnGroup {
+    padding: 0 20px 20px;
+    background-color: #fff;
+  }
+  .el-dialog__header {
+    border-bottom: 1px solid #E4E7ED;
+  }
+  .el-dialog__body {
+    padding: 20px 30px;
+  }
+}

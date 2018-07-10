@@ -1,0 +1,164 @@
+#MerchantsList {
+  display: flex;
+  flex-direction: column;
+  .main-hd {
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    .hd-title {
+      height: 60px;
+      line-height: 60px;
+      color: #3399ff;
+      font-size: 22px;
+    }
+    .hd-btnGroup {
+      height: 32px;
+      position: absolute;
+      top: 14px;
+      right: 20px;
+    }
+  }
+  .top-btnGroup {
+    padding: 20px 20px;
+    background-color: #fff;
+    margin: 14px 0;
+    .el-input__inner {
+      line-height: 32px;
+    }
+  }
+  .main-table {
+    flex: 1;
+    .cell {
+      text-align: center;
+    }
+  }
+  .pagination {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+  }
+  .bom-btnGroup {
+    padding: 0 20px 20px;
+    background-color: #fff;
+  }
+  .dialog {
+    &.info {
+      .dialog-tit {
+        padding: 20px 20px 10px;
+        border-bottom: 1px solid #e4e7ed;
+      }
+    }
+    &.check {
+      overflow: hidden;
+      .el-dialog {
+        margin-top: 10vh !important;
+      }
+      .editBtn {
+        font-size: 16px;
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 7px;
+      }
+      .saveBtn {
+        font-size: 16px;
+        display: block;
+        position: absolute;
+        right: 60px;
+        top: 7px;
+      }
+      .cancleBtn {
+        font-size: 16px;
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 7px;
+        color: #c0c4cc;
+      }
+      .freezeBtn {
+        padding: 6px 10px;
+        margin-left: 15px;
+      }
+      .check-box {
+        max-height: 580px;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      .el-dialog__body {
+        padding: 0;
+      }
+      .check-title {
+        line-height: 50px;
+        font-size: 18px;
+        color: #333;
+        padding: 0 20px;
+        background-color: #f0f4f7;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+      }
+      .check-form {
+        .el-form-item {
+          margin-bottom: 12px;
+        }
+        li {
+          line-height: 30px;
+          margin-bottom: 10px;
+        }
+      }
+      .check-combo {
+        p {
+          line-height: 36px;
+        }
+        li {
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+      }
+      .check-imglist {
+        padding: 20px 20px 10px;
+        background-color: #fff;
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+        li {
+          width: 190px;
+          height: 120px;
+          margin-bottom: 10px;
+          margin-right: 10px;
+          &:nth-child(4) {
+            margin-right: 0;
+          }
+        }
+        img {
+          display: block;
+          width: 190px;
+          height: 120px;
+        }
+      }
+      .uploadList {
+        padding: 20px;
+        background-color: #fff;
+      }
+      .el-dialog__header {
+        border-bottom: 0;
+        display: none;
+      }
+    }
+  }
+  .el-dialog__header {
+    border-bottom: 1px solid #e4e7ed;
+  }
+  .el-dialog__body {
+    padding: 20px 0;
+  }
+  .el-upload-list__item {
+    width: 190px;
+    height: 120px;
+  }
+  .el-upload--picture-card {
+    width: 190px;
+    height: 120px;
+  }
+}

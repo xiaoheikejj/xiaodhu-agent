@@ -1,0 +1,16 @@
+#NewAddMerchants {
+  flex: 1;
+  background-color: #fff;
+  .company-form {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px 20px;
+  }
+  .el-form-item {
+    margin-bottom: 20px;
+  }
+  .el-form-item__error {
+    padding-top: 3px;
+  }
+}

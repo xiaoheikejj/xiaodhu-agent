@@ -1,0 +1,39 @@
+#AddMerchantsRouter {
+  display: flex;
+  flex-direction: column;
+  .main-hd {
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    .hd-title {
+      height: 60px;
+      line-height: 60px;
+      color: #3399ff;
+      font-size: 22px;
+    }
+  }
+  .router-title {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    ul {
+      display: inline-block;
+      line-height: 20px;
+      font-size: 0;
+    }
+    li {
+      display: inline-block;
+      color: #606266;
+      cursor: pointer;
+      padding: 6px 6px;
+      margin: 0 4px;
+      letter-spacing: 1px;
+      font-size: 18px;
+      &.active {
+        color: #409EFF;
+        border-bottom: 1px solid #409EFF;
+      }
+    }
+  }
+}

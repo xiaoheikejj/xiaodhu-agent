@@ -1,0 +1,18 @@
+@import "images";
+@import "reset";
+
+
+@import "layout/home";
+@import "layout/header";
+@import "layout/sidenav";
+
+@import "page/login/login";//登录
+
+@import "page/index/index";//首页
+
+@import "page/account/merConfig";//商户权限管理
+@import "page/account/merConfigMan";//权限配置
+
+@import "page/merchants/merchantsList";//商户列表
+@import "page/merchants/newAddMerchants";//新增商户
+@import "page/merchants/addMerchantsRouter";
